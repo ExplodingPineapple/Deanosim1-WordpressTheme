@@ -4,7 +4,8 @@
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title( '|', true, 'right' ); ?>Exploding Pineapple | Exploding Pineapple Network</title>
+	<title><?php bloginfo('name');?> | <?php bloginfo('description');?></title>
+    <style>body {background-image:url("<?php bloginfo('template_directory');?>/ExplodingPineappleFBCoverPhoto.png");}</style>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
