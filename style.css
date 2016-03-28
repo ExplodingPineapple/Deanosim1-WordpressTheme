@@ -1,0 +1,148 @@
+/*
+Theme Name: Deanosim1.net.
+Theme URI: http://deanosim1.net
+Description: A port of the old Deanosim1.net theme to Wordpress.
+Version: 0.1.4
+Author: Deanosim1
+Author URI: http://deanosim1.net.
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-theme.css');
+
+body {
+	background-image: url("/wp-content/themes/deanosim1.net/website-background-small.jpg");
+	margin-top: 20px;
+}
+ .head h3 {
+ 	text-align: center;
+ }
+
+.head {
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #DCDCDC;
+}
+
+.navbar-right li {
+margin-right: 10px;
+}
+
+.content {
+	border: 1px solid transparent;
+	text-align: center;
+	border-radius: 5px;
+	background-color: transparent;
+	padding-top: 60px;
+}
+
+.content-inner {
+	background-color: white;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.page{
+	background-color: white;
+	/*margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 10px;*/
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+h1.entry-title{
+	border-bottom: 1px solid #E4E4E4;
+	border-top: 1px solid #E4E4E4;
+}
+
+.avatar-logo {
+	text-align: center;
+}
+
+.avatar-logo img {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+	margin-bottom: -50px;
+	border: 2px solid transparent;
+	border-radius: 10px;
+}
+
+.fb-like-box {
+	background-color: white;
+}
+
+.tumblrfollow {
+	margin-top: 10px;
+}
+
+.linkfixsocial {
+	color: black;
+}
+
+.navbar-wrapper .navbar {
+    border-radius: 4px;
+}
+
+footer {
+	text-align: center;
+}
+
+.sidebar {
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #DCDCDC;
+	padding-top: 60px;
+	float: right;
+}
+
+div.author-box {
+    background: none repeat scroll 0% 0% #F0F0F0;
+    border-radius: 3px;
+    float: left;
+    font-family: georgia,times,serif;
+    font-style: italic;
+    margin: 0px 15px 15px 0px;
+    padding: 10px;
+    text-align: center;
+    width: 70px;
+}
+
+div.date, div.comments {
+    border-bottom: 1px solid #E4E4E4;
+    border-top: 1px solid #E4E4E4;
+    color: #888;
+    font-family: Georgia,times,serif;
+    font-size: 12px;
+    margin: 10px 0px;
+    padding: 3px 0px;
+}
+
+div.author-box img {
+    float: none;
+    border: 4px solid #FFF;
+    margin: 0px;
+}
+
+div.post-content {
+    margin-left: 105px;
+}
+
+div.entry, div.post-header {
+	text-align: left;
+}	
+
+.padder {
+    padding: 19px;
+}	
+
+li.widget{
+	text-decoration: none;
+}
+
