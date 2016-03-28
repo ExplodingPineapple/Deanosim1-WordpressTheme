@@ -1,8 +1,8 @@
 /*
-Theme Name: Deanosim1.net.
-Theme URI: http://deanosim1.net
-Description: A port of the old Deanosim1.net theme to Wordpress.
-Version: 0.1.4
+Theme Name: ExplodingPineapple-WordPressTheme
+Theme URI: https://github.com/ExplodingPineapple/ExplodingPineapple-WordPressTheme
+Description: The code for the Wordpress theme on the expi site. (Disclaimer it's never really been finished so it doesn't work very well in some areas. If you would like to help me fix it feel free :). This is a fork of the theme used on my Site Deanosim1.net, It will be changed to fit more to the exploding pineapple site.
+Version: 0.1.1
 Author: Deanosim1
 Author URI: http://deanosim1.net.
 */
@@ -11,7 +11,7 @@ Author URI: http://deanosim1.net.
 @import url('bootstrap/css/bootstrap-theme.css');
 
 body {
-	background-image: url("/wp-content/themes/deanosim1.net/website-background-small.jpg");
+	background-image: url("<?php bloginfo('template_directory');?>/ExplodingPineappleFBCoverPhoto.png");
 	margin-top: 20px;
 }
  .head h3 {

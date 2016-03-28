@@ -4,7 +4,7 @@
 	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
-	<title><?php wp_title( '|', true, 'right' ); ?>Deanosim1's Homepage | Exploding Pineapple Network</title>
+	<title><?php wp_title( '|', true, 'right' ); ?>Exploding Pineapple | Exploding Pineapple Network</title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>

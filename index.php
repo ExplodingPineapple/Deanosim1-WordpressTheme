@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="container">
 		<div class="avatar-logo">
-			<img src="/wp-content/themes/deanosim1.net/ExplodingPineappleFBProfilePhoto.png" />
+			<img src="<?php bloginfo('template_directory');?>/ExplodingPineapple-WordPressTheme/ExplodingPineappleFBProfilePhoto.png" />
 		</div>
 			<div class="content">
 				<div class="row">
