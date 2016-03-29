@@ -5,7 +5,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php bloginfo('name');?> | <?php bloginfo('description');?></title>
-    <style>body {background-image:url("<?php bloginfo('template_directory');?>/ExplodingPineappleFBCoverPhoto.png");}</style>
+    <!--<style>body {background-image:url("<?php bloginfo('template_directory');?>/ExplodingPineappleFBCoverPhoto.png");}</style>-->
+    <style>
+        body {
+            background-color: #ce9f2c
+        }
+    </style>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<!--[if lt IE 9]>
