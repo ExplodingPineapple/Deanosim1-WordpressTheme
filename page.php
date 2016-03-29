@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
     <div class="container">
-		 <!-- <div class="avatar-logo">
-			<img src="/wp-content/themes/deanosim1.net/deanosim1-head-new.jpg" />
-		</div> -->
+		 <div class="avatar-logo">
+			<img src="<?php bloginfo('template_directory');?>/ExplodingPineappleFBProfilePhoto.png" />
+		</div>
 		<div class="content">
 			<?php /* The loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -35,5 +35,5 @@
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-
+<br/>
 <?php get_footer(); ?>
