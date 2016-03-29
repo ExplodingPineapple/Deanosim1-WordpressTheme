@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
+	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
 	<title><?php bloginfo('name');?> | <?php bloginfo('description');?></title>
@@ -46,7 +46,7 @@
 							<li class="divider"></li>
 							<li class="dropdown-header">Nav header</li>
 							<li><a href="#">Separated link</a></li>
-							<li><a href="<?php echo wp_logout_url( get_permalink() ); ?>">Logout</a></li>
+							<li><a href="/wp-login.php?action=logout">Logout</a></li>
 							</ul>
 						</li>';
 							} else {
